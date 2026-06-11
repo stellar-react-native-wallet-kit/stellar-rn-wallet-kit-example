@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Stellar Wallet Kit Example",
+    "slug": "stellar-rn-wallet-kit-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "stellarwalletkit",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.stellar.walletkit.example"
+    },
+    "android": {
+      "package": "com.stellar.walletkit.example",
+      "adaptiveIcon": {
+        "backgroundColor": "#0c0d14",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

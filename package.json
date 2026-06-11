@@ -1,0 +1,27 @@
+{
+  "name": "stellar-rn-wallet-kit-example",
+  "version": "0.1.0",
+  "description": "Example application demonstrating usage of @stellar/react-native-wallet-kit",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@stellar/react-native-wallet-kit": "file:../stellar-react-native-wallet-kit",
+    "@stellar/stellar-sdk": "^12.3.0",
+    "@walletconnect/react-native-compat": "^2.11.1",
+    "expo": "~56.0.11",
+    "expo-status-bar": "~56.0.4",
+    "react": "19.2.3",
+    "react-native": "0.85.3"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "private": true
+}
